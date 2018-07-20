@@ -1,0 +1,12 @@
+#menu ul{
+	list-style: none;
+}
+#menu ul li{
+	background: black;
+	border: 10px ;
+	width: 120px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	float: left;
+}
