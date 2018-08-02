@@ -61,6 +61,10 @@ nav ul li a{
 	background-color: blue;
 	padding: 10px 10px 10px 10px;
 }
+.homebl:hover{
+	background-color: blue;
+	padding: 10px 10px 10px 10px;
+}
 .homesub {
     font-family: 'Raleway', sans-serif;
     margin: 0;

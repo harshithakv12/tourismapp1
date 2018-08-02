@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700i');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 body{
-	background-color: rgba(0 , 0, 0, 0.2);
-    background: cover;
+	background-color: rgba(0 , 0, 0, 0.9);
 	margin: 0;
 	padding: 0;
+	background: cover;
+	
 }
 header{
 	background: black;
@@ -42,12 +43,16 @@ nav ul li a{
 #nav{
 	font-family: 'Montserrat', sans-serif;
 }
-.homeblack{
-	background-color: red;
-	padding: 30px 10px 16px 10px;
+.homered:hover{
+	background-color: blue;
+	padding: 10px 10px 10px 10px;
 }
 
 
+.homeblack:hover {
+	background-color: blue;
+	padding: 10px 10px 10px 10px;
+}
 .homeblac:hover {
 	background-color: blue;
 	padding: 10px 10px 10px 10px;
@@ -84,7 +89,4 @@ nav ul li a{
 	outline: none;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
-}
-.ka {
-	font-family: 'Raleway', sans-serif;
 }

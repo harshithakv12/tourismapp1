@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<HTML >
+<HEAD>
+	<TITLE>LOGIN LIST</TITLE>
+</HEAD>
+<BODY>
+<ul>
+   {% for entry in entries %}
+   <li>{{entry.username}}-{{entry.password}}-{{entry.email}}</li>
+   {% else %}
+   <li>not avilable</li>
+   {% endfor %}
+</ul>
+</BODY>
+</HTML>
+
